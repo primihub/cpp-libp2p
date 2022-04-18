@@ -19,9 +19,9 @@
 #ifndef GSL_STRING_SPAN_H
 #define GSL_STRING_SPAN_H
 
-#include <src/primihub/common/gsl/gsl_assert>
-#include <src/primihub/common/gsl/gsl_util>
-#include <src/primihub/common/gsl/span>
+#include <gsl/gsl_assert>
+#include <gsl/gsl_util>
+#include <gsl/span>
 
 #include <cstdint>
 #include <cstring>

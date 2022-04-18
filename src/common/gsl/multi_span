@@ -19,9 +19,9 @@
 #ifndef GSL_MULTI_SPAN_H
 #define GSL_MULTI_SPAN_H
 
-#include <src/primihub/common/gsl/gsl_assert>
-#include <src/primihub/common/gsl/gsl_byte>
-#include <src/primihub/common/gsl/gsl_util>
+#include <gsl/gsl_assert>
+#include <gsl/gsl_byte>
+#include <gsl/gsl_util>
 
 #include <algorithm>
 #include <array>
