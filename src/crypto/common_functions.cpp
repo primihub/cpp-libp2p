@@ -5,8 +5,10 @@
 
 #include <libp2p/crypto/common_functions.hpp>
 
+
 #include <gsl/gsl_util>
 #include <libp2p/crypto/error.hpp>
+#include <openssl/ecdsa.h>
 
 namespace libp2p::crypto {
 
