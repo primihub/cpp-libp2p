@@ -27,7 +27,7 @@ namespace libp2p::crypto::chachapoly {
    private:
     const Key key_;
     const EVP_CIPHER *cipher_;
-    const int block_size_;
+    const unsigned int block_size_;
     libp2p::log::Logger log_ = libp2p::log::createLogger("ChaChaPoly");
   };
 
