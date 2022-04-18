@@ -52,7 +52,7 @@ namespace libp2p::log {
 
     template <typename... Args>
     void debug(std::string_view fmt, const Args &... args) {
-      log(Level::DEBUG, fmt, args...);
+      log(Level::DEBUG0, fmt, args...);
     }
 
     template <typename... Args>

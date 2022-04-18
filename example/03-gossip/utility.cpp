@@ -38,7 +38,7 @@ namespace libp2p::protocol::example::utility {
         libp2p::log::setLevelOfGroup("main", libp2p::log::Level::WARN);
         break;
       case 'd':
-        libp2p::log::setLevelOfGroup("main", libp2p::log::Level::DEBUG);
+        libp2p::log::setLevelOfGroup("main", libp2p::log::Level::DEBUG0);
         break;
       case 't':
         libp2p::log::setLevelOfGroup("main", libp2p::log::Level::TRACE);
