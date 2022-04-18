@@ -12,6 +12,7 @@
 #include <vector>
 
 #include <openssl/ec.h>
+#include <openssl/ecdsa.h>
 #include <openssl/evp.h>
 #include <gsl/span>
 #include <libp2p/outcome/outcome.hpp>
