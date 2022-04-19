@@ -5,7 +5,7 @@
 
 #include <libp2p/crypto/key_marshaller/key_marshaller_impl.hpp>
 
-#include <keys.pb.h>
+#include <generated/crypto/protobuf/keys.pb.h>
 #include <libp2p/crypto/common.hpp>
 #include <libp2p/crypto/crypto_provider.hpp>
 
