@@ -20,7 +20,7 @@ namespace libp2p::crypto::chachapoly {
   ChaCha20Poly1305Impl::ChaCha20Poly1305Impl(Key key)
       : key_{key},
         cipher_{EVP_chacha20_poly1305()},
-        block_size_{EVP_CIPHER_block_size(cipher_)} {}
+        block_size_{ (unsigned int) (EVP_CIPHER_block_size(cipher_)) } {}
 
   outcome::result<ByteArray> ChaCha20Poly1305Impl::encrypt(
       const Nonce &nonce, gsl::span<const uint8_t> plaintext,
