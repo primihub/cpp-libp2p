@@ -6,7 +6,8 @@
 #ifndef LIBP2P_CRYPTO_RANDOM_BOOST_GENERATOR_HPP
 #define LIBP2P_CRYPTO_RANDOM_BOOST_GENERATOR_HPP
 
-#include <boost/nondet_random.hpp>
+// #include <boost/nondet_random.hpp>
+#include <boost/random/random_device.hpp>
 #include <boost/random/uniform_int_distribution.hpp>
 #include <libp2p/crypto/random_generator.hpp>
 
