@@ -7,7 +7,7 @@
 
 #include <vector>
 
-#include <generated/protocol/identify/protobuf/identify.pb.h>
+#include <generated/identify.pb.h>
 #include <gtest/gtest.h>
 #include <libp2p/common/literals.hpp>
 #include <libp2p/multi/uvarint.hpp>

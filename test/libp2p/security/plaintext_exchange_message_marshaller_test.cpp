@@ -5,7 +5,7 @@
 
 #include <gtest/gtest.h>
 
-#include <generated/security/plaintext/protobuf/plaintext.pb.h>
+#include <generated/plaintext.pb.h>
 #include <libp2p/crypto/key.hpp>
 #include <libp2p/peer/peer_id.hpp>
 #include <libp2p/security/plaintext/exchange_message_marshaller_impl.hpp>

@@ -10,8 +10,8 @@ build*
 *.gch
 *.a
 *.o
-*.pb.cc
-*.pb.h
+# *.pb.cc
+# *.pb.h
 *.retry
 .gradle/*
 .vscode/*
@@ -27,7 +27,7 @@ cmake-build-debug/*
 external/*
 core/infra/protobuf
 docker/tiny/iroha/
-# include/generated/*
+include/generated/*.pb.cc
 .scannerwork/
 peers.list
 cmake-build*
