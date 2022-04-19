@@ -7,7 +7,7 @@
 
 #include <libp2p/multi/uvarint.hpp>
 
-#include <generated/protocol/gossip/protobuf/rpc.pb.h>
+#include <rpc.pb.h>
 
 namespace libp2p::protocol::gossip {
 
