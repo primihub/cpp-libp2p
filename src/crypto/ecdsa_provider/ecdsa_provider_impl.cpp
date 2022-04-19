@@ -8,6 +8,7 @@
 #include <openssl/err.h>
 #include <openssl/obj_mac.h>
 #include <openssl/evp.h>
+#include <openssl/x509.h>
 #include <gsl/gsl_util>
 #include <gsl/span>
 #include "libp2p/crypto/common_functions.hpp"
