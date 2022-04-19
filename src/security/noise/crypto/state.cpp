@@ -404,7 +404,7 @@ namespace libp2p::security::noise {
   }
 
   outcome::result<void> HandshakeState::writeMessageE(ByteArray &out) {
-    OUTCOME_TRY(ephemeral_kp, symmetric_state_->cipherSuite()->generate());
+    OUTCOME_TRY(auto ephemeral_kp, symmetric_state_->cipherSuite()->generate());
     local_ephemeral_kp_ = std::move(ephemeral_kp);
     out.insert(out.end(), local_ephemeral_kp_.pub.begin(),
                local_ephemeral_kp_.pub.end());
