@@ -9,7 +9,7 @@
 
 #include "message_receiver.hpp"
 
-#include <generated/protocol/gossip/protobuf/rpc.pb.h>
+#include <libp2p/protocol/gossip/protobuf/rpc.pb.h>
 
 namespace libp2p::protocol::gossip {
 
