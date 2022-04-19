@@ -4,6 +4,7 @@
  */
 
 #include <libp2p/crypto/common_functions.hpp>
+#include <openssl/ec.h>
 
 
 #include <gsl/gsl_util>
