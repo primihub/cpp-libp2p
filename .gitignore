@@ -27,7 +27,7 @@ cmake-build-debug/*
 external/*
 core/infra/protobuf
 docker/tiny/iroha/
-include/generated/*
+# include/generated/*
 .scannerwork/
 peers.list
 cmake-build*
