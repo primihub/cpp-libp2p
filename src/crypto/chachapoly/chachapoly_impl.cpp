@@ -7,6 +7,7 @@
 #include <libp2p/crypto/chachapoly/chachapoly_impl.hpp>
 #include <libp2p/crypto/common_functions.hpp>
 #include <libp2p/crypto/error.hpp>
+#include <openssl/evp.h>
 
 namespace libp2p::crypto::chachapoly {
 
