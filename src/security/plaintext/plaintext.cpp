@@ -7,7 +7,7 @@
 
 #include <functional>
 
-#include <libp2p/security/plaintext/protobuf/plaintext.pb.h>
+#include <generated/security/plaintext/protobuf/plaintext.pb.h>
 #include <libp2p/basic/protobuf_message_read_writer.hpp>
 #include <libp2p/peer/peer_id.hpp>
 #include <libp2p/security/error.hpp>

@@ -5,7 +5,7 @@
 
 #include <libp2p/security/noise/handshake_message_marshaller_impl.hpp>
 
-#include <libp2p/security/noise/protobuf/noise.pb.h>
+#include <generated/security/noise/protobuf/noise.pb.h>
 OUTCOME_CPP_DEFINE_CATEGORY(libp2p::security::noise,
                             HandshakeMessageMarshallerImpl::Error, e) {
   using E = libp2p::security::noise::HandshakeMessageMarshallerImpl::Error;

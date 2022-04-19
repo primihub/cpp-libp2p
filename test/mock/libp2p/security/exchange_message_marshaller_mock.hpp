@@ -10,7 +10,7 @@
 
 #include <gmock/gmock.h>
 
-#include <libp2p/security/plaintext/protobuf/plaintext.pb.h>
+#include <generated/security/plaintext/protobuf/plaintext.pb.h>
 #include <libp2p/security/plaintext/exchange_message.hpp>
 
 namespace libp2p::security::plaintext {
