@@ -89,9 +89,10 @@ namespace libp2p::host {
 
     event::Handle setOnNewConnectionHandler(
         const NewConnectionHandler &h) const override;
-
-   private:
+   
     std::shared_ptr<peer::IdentityManager> idmgr_;
+   
+   private:
     std::unique_ptr<network::Network> network_;
     std::unique_ptr<peer::PeerRepository> repo_;
     std::shared_ptr<event::Bus> bus_;
