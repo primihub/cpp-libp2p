@@ -42,11 +42,12 @@ namespace libp2p::protocol::kademlia {
     auto &idx = table_->get<ByKey>();
 
     if (auto it = idx.find(key); it == idx.end()) {
-      table_->insert({key, expire_time, now});
+      table_->insert({key, expire_time, now, now});
     } else {
       table_->modify(it, [expire_time, now](auto &record) {
         record.expire_time = expire_time;
         record.updated_at = now;
+        record.refresh_time = now;
       });
     }
 
